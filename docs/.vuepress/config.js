@@ -1,6 +1,6 @@
 module.exports = {
   title: "",
-  base:'/<noteCSS>/',
+  base:'/noteCSS/',
   description: "Note CSS -- CSS学习目录",
   head: [
     [
