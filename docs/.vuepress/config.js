@@ -1,6 +1,6 @@
 module.exports = {
   title: "",
-  base:'/noteCSS/',
+  base: "/noteCSS/",
   description: "Note CSS -- CSS学习目录",
   head: [
     [
@@ -13,20 +13,34 @@ module.exports = {
   ],
   themeConfig: {
     logo: "/assets/img/logo.jpg",
-    nav: [
-      { text: "External", link: "https://github.com/superwtt" },
-    ],
+    nav: [{ text: "External", link: "https://github.com/superwtt" }],
     sidebar: [
       {
         title: "Introduction",
         collapsable: false,
-        children: [['/introduction/introduction.html', '简介']],
+        children: [["/introduction/introduction.html", "简介"]],
       },
       {
         title: "CSS Base",
         collapsable: false,
-        children: [['/base/background.html', 'CSS 背景']],
+        children: [
+          {
+            title: "背景",
+            path: "/base/background/background.html",
+            children: [
+              {
+                title: "background-color",
+                path: "/base/background/backgroundColor.html",
+              },
+            ],
+          },
+        ],
       },
+      // {
+      //   title: "CSS Base",
+      //   collapsable: false,
+      //   children: [['/base/background.html', 'CSS 背景']],
+      // },
       // {
       //   title: "CSS Advanced",
       //   collapsable: false,
