@@ -29,9 +29,37 @@ module.exports = {
             path: "/base/background/background.html",
             children: [
               {
-                title: "background-color",
-                path: "/base/background/backgroundColor.html",
+                title: "background-image",
+                path: "/base/background/backgroundImage.html",
               },
+              {
+                title: "background-repeat",
+                path: "/base/background/backgroundRepeat.html"
+              },
+              {
+                title: "background-position",
+                path: "/base/background/backgroundPosition.html"
+              },
+              {
+                title: "background-attachment",
+                path: "/base/background/backgroundAttachment.html"
+              },
+              {
+                title: "background-clip",
+                path: "/base/background/backgroundClip.html"
+              },
+              {
+                title: "background-origin",
+                path: "/base/background/backgroundOrigin.html"
+              },
+              {
+                title: "background-size",
+                path: "/base/background/backgroundSize.html"
+              },
+              {
+                title: "background-blend-mode",
+                path: "/base/background/backgroundBlendMode.html"
+              }
             ],
           },
         ],
