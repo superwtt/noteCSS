@@ -62,6 +62,19 @@ module.exports = {
               }
             ],
           },
+          {
+            title: "渐变",
+            children: [
+              {
+                title: "linear-gradient",
+                path: "/base/gradient/linearGradient.html",
+              },
+              {
+                title: "radial-gradient",
+                path: "/base/gradient/radialGradient.html"
+              }
+            ],
+          },
         ],
       },
       // {
