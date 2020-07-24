@@ -76,26 +76,35 @@ module.exports = {
             ],
           },
           {
-            title: "box-shadow",
+            title: "阴影",
             children: [
               {
                 title: "box-shadow",
                 path: "/base/boxshadow/boxShadow.html",
+              },
+              {
+                title: "text-shadow",
+                path: "/base/boxshadow/textShadow.html",
               }
             ],
           },
         ],
       },
-      // {
-      //   title: "CSS Base",
-      //   collapsable: false,
-      //   children: [['/base/background.html', 'CSS 背景']],
-      // },
-      // {
-      //   title: "CSS Advanced",
-      //   collapsable: false,
-      //   children: [['/advanced/index.html', 'CSS 背景']],
-      // },
+      {
+        title: "CSS Inspiration",
+        collapsable: false,
+        children: [
+          {
+            title: "阴影",
+            children: [
+              {
+                title: "使用box-shadow位移实现摆动的小花朵",
+                path: "/inspiration/boxshadow/flower.html",
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   plugins: {
