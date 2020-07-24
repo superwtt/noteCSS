@@ -75,6 +75,15 @@ module.exports = {
               }
             ],
           },
+          {
+            title: "box-shadow",
+            children: [
+              {
+                title: "box-shadow",
+                path: "/base/boxshadow/boxShadow.html",
+              }
+            ],
+          },
         ],
       },
       // {
