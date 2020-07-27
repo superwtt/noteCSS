@@ -103,6 +103,20 @@ module.exports = {
               },
             ],
           },
+          {
+            title: "border",
+            children: [
+              {
+                title: "使用border-radius实现水滴加载效果",
+                path: "/inspiration/border/water.html",
+              },
+              {
+                title: "### 使用border-radius实现QQ音乐LOGO",
+                path: "/inspiration/border/QQ.html",
+              },
+            ],
+          },
+
         ],
       },
     ],
