@@ -101,6 +101,15 @@ module.exports = {
               }
             ],
           },
+          {
+            title: "SVG",
+            children: [
+              {
+                title: "svg",
+                path: "/base/svg/svg.html",
+              }
+            ],
+          },
         ],
       },
       {
@@ -132,6 +141,21 @@ module.exports = {
 
         ],
       },
+      {
+        title:"CSS Advanced",
+        collapsable:false,
+        children:[
+          {
+            title: "阴影",
+            children: [
+              {
+                title: "使用box-shadow实现3D按钮",
+                path: "/advanced/boxshadow/3dbutton.html",
+              },
+            ],
+          },
+        ]
+      }
     ],
   },
   plugins: {
