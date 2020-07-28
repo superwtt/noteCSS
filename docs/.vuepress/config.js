@@ -126,7 +126,7 @@ module.exports = {
             ],
           },
           {
-            title: "border",
+            title: "边框",
             children: [
               {
                 title: "使用border-radius实现花瓣加载效果",
