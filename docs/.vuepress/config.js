@@ -88,6 +88,19 @@ module.exports = {
               }
             ],
           },
+          {
+            title: "边框",
+            children: [
+              {
+                title: "border",
+                path: "/base/border/border.html",
+              },
+              {
+                title: "border-radius",
+                path: "/base/border/borderradius.html",
+              }
+            ],
+          },
         ],
       },
       {
@@ -107,11 +120,11 @@ module.exports = {
             title: "border",
             children: [
               {
-                title: "使用border-radius实现水滴加载效果",
+                title: "使用border-radius实现花瓣加载效果",
                 path: "/inspiration/border/water.html",
               },
               {
-                title: "### 使用border-radius实现QQ音乐LOGO",
+                title: "使用border-radius实现QQ音乐LOGO",
                 path: "/inspiration/border/QQ.html",
               },
             ],
