@@ -111,6 +111,10 @@ module.exports = {
               {
                 title: "animation",
                 path: "/base/animate/animation.html",
+              },
+              {
+                title: "逐帧动画和补帧动画",
+                path: "/base/animate/steps.html",
               }
             ],
           },
@@ -165,6 +169,10 @@ module.exports = {
                 title: "使用box-shadow实现3D按钮",
                 path: "/advanced/boxshadow/3dbutton.html",
               },
+              {
+                title: "使用animation实现各种加载样式",
+                path: "/advanced/animation/loading.html",
+              }
             ],
           },
         ]

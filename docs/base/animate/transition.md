@@ -24,5 +24,7 @@ transition-timing-function|规定动画的速度曲线
 5. ease-in-out: 规定以慢速开始和结束的过渡效果
 6. cubic-bezier(n,n,n,n): 在贝塞尔中定义自己的值
 
+
 ---
+
 
