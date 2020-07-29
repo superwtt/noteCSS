@@ -102,14 +102,27 @@ module.exports = {
             ],
           },
           {
-            title: "SVG",
+            title: "动画",
             children: [
               {
-                title: "svg",
-                path: "/base/svg/svg.html",
+                title: "transition",
+                path: "/base/animate/transition.html",
+              },
+              {
+                title: "animation",
+                path: "/base/animate/animation.html",
               }
             ],
           },
+          // {
+          //   title: "SVG",
+          //   children: [
+          //     {
+          //       title: "svg",
+          //       path: "/base/svg/svg.html",
+          //     }
+          //   ],
+          // },
         ],
       },
       {
