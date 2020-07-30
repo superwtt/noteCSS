@@ -171,7 +171,7 @@ module.exports = {
               },
               {
                 title: "使用animation实现各种加载样式",
-                path: "/advanced/animation/loading.html",
+                path: "/advanced/border/loading.html",
               }
             ],
           },
