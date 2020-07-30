@@ -175,6 +175,15 @@ module.exports = {
               }
             ],
           },
+          {
+            title: "边框",
+            children: [
+              {
+                title: "使用border-style实现各种加载样式",
+                path: "/advanced/border/loading.html",
+              }
+            ],
+          },
         ]
       }
     ],
