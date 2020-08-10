@@ -183,6 +183,14 @@ module.exports = {
                 path: "/advanced/border/loading.html",
               }
             ],
+          },{
+            title: "渐变色",
+            children: [
+              {
+                title: "使用渐变色实现按钮各种样式",
+                path: "/advanced/gradient/btn.html",
+              }
+            ],
           },
         ]
       }
