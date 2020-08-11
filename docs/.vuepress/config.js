@@ -189,6 +189,10 @@ module.exports = {
               {
                 title: "使用渐变色实现按钮各种样式",
                 path: "/advanced/gradient/btn.html",
+              },
+              {
+                title: "渐变色实现霓虹灯按钮样式",
+                path: "/advanced/gradient/neon.html",
               }
             ],
           },
