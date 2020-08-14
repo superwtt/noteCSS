@@ -118,6 +118,15 @@ module.exports = {
               }
             ],
           },
+          {
+            title: "滤镜",
+            children: [
+              {
+                title: "filter",
+                path: "/base/filter/滤镜.html",
+              }
+            ],
+          },
           // {
           //   title: "SVG",
           //   children: [
