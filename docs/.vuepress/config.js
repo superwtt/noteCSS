@@ -25,6 +25,15 @@ module.exports = {
         collapsable: false,
         children: [
           {
+            title: "SVG",
+            children: [
+              {
+                title: "SVG基础",
+                path: "/base/svg/svg基础.html",
+              }
+            ],
+          },
+          {
             title: "背景",
             path: "/base/background/background.html",
             children: [
@@ -162,6 +171,15 @@ module.exports = {
                 title: "使用border-radius实现QQ音乐LOGO",
                 path: "/inspiration/border/QQ.html",
               },
+            ],
+          },
+          {
+            title: "伪类",
+            children: [
+              {
+                title: "使用伪类checked实现某壳找房选中效果",
+                path: "/inspiration/after/checked.html",
+              }
             ],
           },
 
