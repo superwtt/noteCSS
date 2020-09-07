@@ -1,4 +1,4 @@
-### SVG高级用法
+### Scss高级用法
 
 #### @if,@else if ,@else条件判断语句
 ```javascript

@@ -25,15 +25,15 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: "SVG",
+            title: "Scss",
             children: [
               {
                 title: "SVG基础",
-                path: "/base/svg/svg基础.html",
+                path: "/base/scss/scss基础.html",
               },
               {
                 title: "SVG高级",
-                path: "/base/svg/svg高级.html",
+                path: "/base/scss/scss高级.html",
               }
             ],
           },
