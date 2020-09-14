@@ -28,12 +28,12 @@ module.exports = {
             title: "Scss",
             children: [
               {
-                title: "SVG基础",
+                title: "Scss基础",
                 path: "/base/scss/scss基础.html",
               },
               {
-                title: "SVG高级",
-                path: "/base/scss/scss高级.html",
+                title: "Scss高级",
+                path: "/base/scss/scss进阶.html",
               }
             ],
           },
