@@ -159,9 +159,9 @@ module.exports = {
             title: "阴影",
             children: [
               {
-                title: "使用box-shadow位移实现摆动的小花朵",
-                path: "/inspiration/boxshadow/flower.html",
-              },
+                title: "使用box-shadow位移实现云彩",
+                path: "/inspiration/boxshadow/rainbow.html",
+              }
             ],
           },
           {
