@@ -14,3 +14,4 @@ background-clip |背景图像绘制区域
 background-attachment|背景图像是否固定
 background-origin|背景图像原点位置
 background-blend-mode|背景图像的混合模式
+background-color|背景图像的颜色 background:currentColor=color
