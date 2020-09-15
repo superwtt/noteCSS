@@ -1,5 +1,5 @@
 module.exports = {
-  title: "",
+  title: "noteCSS",
   base: "/noteCSS/",
   description: "Note CSS -- CSS学习目录",
   head: [
