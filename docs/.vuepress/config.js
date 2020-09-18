@@ -1,7 +1,7 @@
 module.exports = {
-  title: "noteCSS",
+  title: " ",
   base: "/noteCSS/",
-  description: "Note CSS -- CSS学习目录",
+  description: "Note CSS -- CSS学习之路",
   head: [
     [
       "link",
@@ -13,7 +13,7 @@ module.exports = {
   ],
   themeConfig: {
     logo: "/assets/img/logo.jpg",
-    nav: [{ text: "External", link: "https://github.com/superwtt" }],
+    nav: [{ text: "Github", link: "https://github.com/superwtt" }],
     sidebar: [
       {
         title: "Introduction",
