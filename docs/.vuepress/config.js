@@ -168,12 +168,16 @@ module.exports = {
             title: "边框",
             children: [
               {
+                title: "使用border-radius实现QQ音乐LOGO",
+                path: "/inspiration/border/QQ.html",
+              },
+              {
                 title: "使用border-radius实现花瓣加载效果",
                 path: "/inspiration/border/water.html",
               },
               {
-                title: "使用border-radius实现QQ音乐LOGO",
-                path: "/inspiration/border/QQ.html",
+                title: "使用border-radius实现可爱的小南瓜",
+                path: "/inspiration/border/pumpkin.html",
               },
             ],
           },
