@@ -232,6 +232,20 @@ module.exports = {
             ],
           },
         ]
+      },
+      {
+        title:"CSS Tools",
+        collapsable:false,
+        children:[
+          {
+            title: "前端动效小工具",
+            path: "/tools/动效.html",
+          },
+          {
+            title: "前端小工具",
+            path: "/tools/小工具.html",
+          }
+        ]
       }
     ],
   },
