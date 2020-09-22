@@ -34,7 +34,7 @@ module.exports = {
               {
                 title: "Scss高级",
                 path: "/base/scss/scss进阶.html",
-              }
+              },
             ],
           },
           {
@@ -47,32 +47,32 @@ module.exports = {
               },
               {
                 title: "background-repeat",
-                path: "/base/background/backgroundRepeat.html"
+                path: "/base/background/backgroundRepeat.html",
               },
               {
                 title: "background-position",
-                path: "/base/background/backgroundPosition.html"
+                path: "/base/background/backgroundPosition.html",
               },
               {
                 title: "background-attachment",
-                path: "/base/background/backgroundAttachment.html"
+                path: "/base/background/backgroundAttachment.html",
               },
               {
                 title: "background-clip",
-                path: "/base/background/backgroundClip.html"
+                path: "/base/background/backgroundClip.html",
               },
               {
                 title: "background-origin",
-                path: "/base/background/backgroundOrigin.html"
+                path: "/base/background/backgroundOrigin.html",
               },
               {
                 title: "background-size",
-                path: "/base/background/backgroundSize.html"
+                path: "/base/background/backgroundSize.html",
               },
               {
                 title: "background-blend-mode",
-                path: "/base/background/backgroundBlendMode.html"
-              }
+                path: "/base/background/backgroundBlendMode.html",
+              },
             ],
           },
           {
@@ -84,8 +84,8 @@ module.exports = {
               },
               {
                 title: "radial-gradient",
-                path: "/base/gradient/radialGradient.html"
-              }
+                path: "/base/gradient/radialGradient.html",
+              },
             ],
           },
           {
@@ -98,7 +98,7 @@ module.exports = {
               {
                 title: "text-shadow",
                 path: "/base/boxshadow/textShadow.html",
-              }
+              },
             ],
           },
           {
@@ -111,7 +111,7 @@ module.exports = {
               {
                 title: "border-radius",
                 path: "/base/border/borderradius.html",
-              }
+              },
             ],
           },
           {
@@ -128,7 +128,7 @@ module.exports = {
               {
                 title: "逐帧动画和补帧动画",
                 path: "/base/animate/steps.html",
-              }
+              },
             ],
           },
           {
@@ -137,7 +137,7 @@ module.exports = {
               {
                 title: "filter",
                 path: "/base/filter/滤镜.html",
-              }
+              },
             ],
           },
           // {
@@ -156,12 +156,21 @@ module.exports = {
         collapsable: false,
         children: [
           {
+            title: "animation",
+            children: [
+              {
+                title: "使用animation实现心形加载",
+                path: "/inspiration/animation/心形加载.html",
+              },
+            ],
+          },
+          {
             title: "阴影",
             children: [
               {
                 title: "使用box-shadow位移实现云彩",
                 path: "/inspiration/boxshadow/rainbow.html",
-              }
+              },
             ],
           },
           {
@@ -187,16 +196,15 @@ module.exports = {
               {
                 title: "使用伪类checked实现某壳找房选中效果",
                 path: "/inspiration/after/checked.html",
-              }
+              },
             ],
           },
-
         ],
       },
       {
-        title:"CSS Advanced",
-        collapsable:false,
-        children:[
+        title: "CSS Advanced",
+        collapsable: false,
+        children: [
           {
             title: "阴影",
             children: [
@@ -207,7 +215,7 @@ module.exports = {
               {
                 title: "使用animation实现各种加载样式",
                 path: "/advanced/border/loading.html",
-              }
+              },
             ],
           },
           {
@@ -216,9 +224,10 @@ module.exports = {
               {
                 title: "使用border-style实现各种加载样式",
                 path: "/advanced/border/loading.html",
-              }
+              },
             ],
-          },{
+          },
+          {
             title: "渐变色",
             children: [
               {
@@ -228,15 +237,15 @@ module.exports = {
               {
                 title: "渐变色实现霓虹灯按钮样式",
                 path: "/advanced/gradient/neon.html",
-              }
+              },
             ],
           },
-        ]
+        ],
       },
       {
-        title:"CSS Tools",
-        collapsable:false,
-        children:[
+        title: "CSS Tools",
+        collapsable: false,
+        children: [
           {
             title: "前端动效小工具",
             path: "/tools/动效.html",
@@ -244,9 +253,9 @@ module.exports = {
           {
             title: "前端小工具",
             path: "/tools/小工具.html",
-          }
-        ]
-      }
+          },
+        ],
+      },
     ],
   },
   plugins: {
