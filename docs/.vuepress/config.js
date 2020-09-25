@@ -156,6 +156,15 @@ module.exports = {
         collapsable: false,
         children: [
           {
+            title: "伪类",
+            children: [
+              {
+                title: "纯CSS实现白天黑夜切换效果",
+                path: "/inspiration/after/light.html",
+              },
+            ],
+          },
+          {
             title: "animation",
             children: [
               {
@@ -187,15 +196,6 @@ module.exports = {
               {
                 title: "使用border-radius实现可爱的小南瓜",
                 path: "/inspiration/border/pumpkin.html",
-              },
-            ],
-          },
-          {
-            title: "伪类",
-            children: [
-              {
-                title: "使用伪类checked实现某壳找房选中效果",
-                path: "/inspiration/after/checked.html",
               },
             ],
           },
