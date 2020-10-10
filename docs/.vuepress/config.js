@@ -243,6 +243,16 @@ module.exports = {
         ],
       },
       {
+        title: "CSS General",
+        collapsable: false,
+        children: [
+          {
+            title: "纯CSS实现流星雨",
+            path: "/general/流星雨.html",
+          },
+        ],
+      },
+      {
         title: "CSS Tools",
         collapsable: false,
         children: [
