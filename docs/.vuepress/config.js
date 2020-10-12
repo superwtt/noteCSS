@@ -250,6 +250,10 @@ module.exports = {
             title: "纯CSS实现流星雨",
             path: "/general/流星雨.html",
           },
+          {
+            title: "纯CSS实现下雪效果",
+            path: "/general/下雪.html",
+          },
         ],
       },
       {
