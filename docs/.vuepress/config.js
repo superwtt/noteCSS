@@ -247,7 +247,7 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: "纯CSS实现流星雨",
+            title: "纯CSS实现粒子流星雨",
             path: "/general/流星雨.html",
           },
           {
