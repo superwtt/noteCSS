@@ -122,6 +122,14 @@ module.exports = {
                 path: "/base/animate/transition.html",
               },
               {
+                title: "transform2d",
+                path: "/base/animate/transform2d.html",
+              },
+              {
+                title: "transform3d",
+                path: "/base/animate/transform3d.html",
+              },
+              {
                 title: "animation",
                 path: "/base/animate/animation.html",
               },
