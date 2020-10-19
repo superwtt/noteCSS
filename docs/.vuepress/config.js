@@ -192,10 +192,10 @@ module.exports = {
                 title: "使用box-shadow位移实现云彩",
                 path: "/inspiration/boxshadow/rainbow.html",
               },
-              {
-                title: "使用box-shadow实现3D按钮",
-                path: "/inspiration/boxshadow/3dbutton.html",
-              },
+              // {
+              //   title: "使用box-shadow实现3D按钮",
+              //   path: "/inspiration/boxshadow/3dbutton.html",
+              // },
             ],
           },
           {
