@@ -175,9 +175,13 @@ module.exports = {
           {
             title: "animation",
             children: [
+              // {
+              //   title: "使用animation实现心形加载",
+              //   path: "/inspiration/animation/心形加载.html",
+              // },
               {
-                title: "使用animation实现心形加载",
-                path: "/inspiration/animation/心形加载.html",
+                title: "perspective 实现3D文字效果",
+                path: "/inspiration/animation/3Dbutton.html",
               },
             ],
           },
@@ -187,6 +191,10 @@ module.exports = {
               {
                 title: "使用box-shadow位移实现云彩",
                 path: "/inspiration/boxshadow/rainbow.html",
+              },
+              {
+                title: "使用box-shadow实现3D按钮",
+                path: "/inspiration/boxshadow/3dbutton.html",
               },
             ],
           },
@@ -205,33 +213,9 @@ module.exports = {
                 title: "使用border-radius实现可爱的小南瓜",
                 path: "/inspiration/border/pumpkin.html",
               },
-            ],
-          },
-        ],
-      },
-      {
-        title: "CSS Advanced",
-        collapsable: false,
-        children: [
-          {
-            title: "阴影",
-            children: [
-              {
-                title: "使用box-shadow实现3D按钮",
-                path: "/advanced/boxshadow/3dbutton.html",
-              },
-              {
-                title: "使用animation实现各种加载样式",
-                path: "/advanced/border/loading.html",
-              },
-            ],
-          },
-          {
-            title: "边框",
-            children: [
               {
                 title: "使用border-style实现各种加载样式",
-                path: "/advanced/border/loading.html",
+                path: "/inspiration/border/loading.html",
               },
             ],
           },
@@ -240,11 +224,11 @@ module.exports = {
             children: [
               {
                 title: "使用渐变色实现按钮各种样式",
-                path: "/advanced/gradient/btn.html",
+                path: "/inspiration/gradient/btn.html",
               },
               {
                 title: "渐变色实现霓虹灯按钮样式",
-                path: "/advanced/gradient/neon.html",
+                path: "/inspiration/gradient/neon.html",
               },
             ],
           },
