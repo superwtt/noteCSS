@@ -262,6 +262,10 @@ module.exports = {
             title: "纯CSS实现下雪效果",
             path: "/general/下雪.html",
           },
+          {
+            title: "纯CSS实现烟花绽放",
+            path: "/general/烟花.html",
+          }
         ],
       },
       {
