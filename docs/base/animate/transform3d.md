@@ -8,10 +8,8 @@
 
 #### perspective
 1. 定义
-
-这个属性定义对象与用户的距离，perspective的存在与否决定了你所看到的元素是2次元还是3次元的，有透视才会有立方体效果
+这个属性定义对象与用户的距离，perspective的存在与否决定了你所看到的元素是2次元还是3次元的，有透视才会有立方体效果.<br/>
 有两种为元素添加perspective的方式：
-
     + `perspective:900px` ：多个元素统一加透视，例如一个统一的立方体、按钮。只会对它的子元素生效，本身不生效，影响它所有的子元素
     + `transform: perspective(900px) rotateY(45deg)` ：为每一个元素添加透视，只会影响这个元素，perspective一定要在rotate前面，否则无效
 
