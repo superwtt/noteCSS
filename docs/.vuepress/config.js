@@ -266,6 +266,16 @@ module.exports = {
           },
         ],
       },
+      {
+        title: "CSS Q&A",
+        collapsable: false,
+        children: [
+          {
+            title: "CSS如何截取图片",
+            path: "/q&a/如何截取图片.html",
+          },
+        ],
+      },
     ],
   },
   plugins: {
