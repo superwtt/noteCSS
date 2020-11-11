@@ -274,6 +274,10 @@ module.exports = {
             title: "CSS如何截取图片",
             path: "/q&a/如何截取图片.html",
           },
+          {
+            title: "常用的网页结构怎么布局",
+            path: "/q&a/常用的网页结构怎么布局.html",
+          },
         ],
       },
     ],
