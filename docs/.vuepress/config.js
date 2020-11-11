@@ -189,6 +189,10 @@ module.exports = {
             title: "阴影",
             children: [
               {
+                title: "闪烁的霓虹灯牌",
+                path: "/inspiration/boxshadow/霓虹灯牌.html",
+              },
+              {
                 title: "使用box-shadow位移实现云彩",
                 path: "/inspiration/boxshadow/rainbow.html",
               },
