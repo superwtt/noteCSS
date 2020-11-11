@@ -18,7 +18,7 @@ module.exports = {
       {
         title: "Introduction",
         collapsable: false,
-        children: [["/introduction/introduction.html", "简介"]],
+        children: [["/introduction/introduction.html", "Awesome CSS"]],
       },
       {
         title: "CSS Base",
@@ -149,12 +149,12 @@ module.exports = {
             ],
           },
           // {
-          //   title: "SVG",
+          //   title: "布局",
           //   children: [
           //     {
-          //       title: "svg",
-          //       path: "/base/svg/svg.html",
-          //     }
+          //       title: "瀑布流布局",
+          //       path: "/base/布局/瀑布流布局.html",
+          //     },
           //   ],
           // },
         ],
@@ -273,10 +273,6 @@ module.exports = {
           {
             title: "CSS如何截取图片",
             path: "/q&a/如何截取图片.html",
-          },
-          {
-            title: "常用的网页结构怎么布局",
-            path: "/q&a/常用的网页结构怎么布局.html",
           },
         ],
       },
