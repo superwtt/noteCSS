@@ -243,19 +243,19 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: "粒子流星",
+            title: "粒子流星🌟",
             path: "/general/流星雨.html",
           },
           {
-            title: "纯CSS实现落雪满南山",
+            title: "纯CSS实现落雪满南山⛄",
             path: "/general/下雪.html",
           },
           {
-            title: "HappyNewYear之烟花绽放",
+            title: "HappyNewYear之烟花绽放🎆",
             path: "/general/烟花.html",
           },
           {
-            title: "Loading合集",
+            title: "Loading合集🍄",
             path: "/general/loading合集.html",
           }
         ],
