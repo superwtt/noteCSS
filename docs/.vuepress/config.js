@@ -217,10 +217,10 @@ module.exports = {
                 title: "使用border-radius实现可爱的小南瓜",
                 path: "/inspiration/border/pumpkin.html",
               },
-              {
-                title: "使用border-style实现各种加载样式",
-                path: "/inspiration/border/loading.html",
-              },
+              // {
+              //   title: "使用border-style实现各种加载样式",
+              //   path: "/inspiration/border/loading.html",
+              // },
             ],
           },
           {

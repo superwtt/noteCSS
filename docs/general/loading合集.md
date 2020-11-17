@@ -9,6 +9,7 @@
 2. Animation2ShapeWrap1：shape1,2,3,4外围的容器越小，shape元素平移的空间越小，就会重叠在一起
 3. Animation7ShapeWrap1: 左右两个圆点的移动除了可以translate以外还可以用定位实现，但是定位在这里css样式过于复杂
 4. Animation9ShapeWrap1: clip-path裁剪小人头像
+4. Animation7Scale: 动画缓动是关键，ease动画以低速开始，然后加快，在结束前变慢；ease-in是低速开始；ease-out低速结束；ease-in-out低速开始和结束；参考[这里](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation_speed)
 
 #### 示例
 <iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/GRqPqmb?height=450&theme-id=default&default-tab=result"></iframe>
