@@ -12,6 +12,7 @@
 5. Animation7Scale: 动画缓动是关键，ease动画以低速开始，然后加快，在结束前变慢；ease-in是低速开始；ease-out低速结束；ease-in-out低速开始和结束；参考[这里](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation_speed)
 6. Animation12Translate：两个伪类元素，分别从（0,0）和（-40px,-40px）的位置向中心移动
 7. Animation13BoxShadow:box-shadow的颜色是根据color变化的
+8. Animation19Border-22：border-style的切换
 
 #### 示例
 <iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/GRqPqmb?height=450&theme-id=default&default-tab=result"></iframe>
