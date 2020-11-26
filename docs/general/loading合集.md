@@ -13,6 +13,9 @@
 6. Animation12Translate：两个伪类元素，分别从（0,0）和（-40px,-40px）的位置向中心移动
 7. Animation13BoxShadow:box-shadow的颜色是根据color变化的
 8. Animation19Border-22：border-style的切换
+9. Animation23Opacity：动画缓动配合scale可以有抖动效果
+10. .g-queue2 .c-loading13，两个伪类before和after分开看，after轮流反向执行动画，before反向执行动画
+11. .g-queue3 .c-loading15, 渐变色作为背景能够填充满整个div，动态移动背景位置
 
 #### 示例
 <iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/GRqPqmb?height=450&theme-id=default&default-tab=result"></iframe>
