@@ -16,6 +16,7 @@
 9. Animation23Opacity：动画缓动配合scale可以有抖动效果
 10. .g-queue2 .c-loading13，两个伪类before和after分开看，after轮流反向执行动画，before反向执行动画
 11. .g-queue3 .c-loading15, 渐变色作为背景能够填充满整个div，动态移动背景位置
+12. Animation38BorderRadius:Y轴位移配合rotate旋转
 
 #### 示例
 <iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/GRqPqmb?height=450&theme-id=default&default-tab=result"></iframe>
