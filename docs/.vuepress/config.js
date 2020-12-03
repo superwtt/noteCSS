@@ -255,6 +255,10 @@ module.exports = {
             path: "/general/烟花.html",
           },
           {
+            title: "",
+            path: "/general/烟花.html",
+          },
+          {
             title: "Loading合集🍄",
             path: "/general/loading合集.html",
           }
