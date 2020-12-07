@@ -243,7 +243,7 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: "粒子流星🌟",
+            title: "粒子流星🌠",
             path: "/general/流星雨.html",
           },
           {
@@ -255,7 +255,7 @@ module.exports = {
             path: "/general/烟花.html",
           },
           {
-            title: "三步实现LED的星球",
+            title: "三步实现LED的星球🌟",
             path: "/general/灯球.html",
           },
           {
