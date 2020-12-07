@@ -255,8 +255,8 @@ module.exports = {
             path: "/general/烟花.html",
           },
           {
-            title: "",
-            path: "/general/烟花.html",
+            title: "三步实现LED的星球",
+            path: "/general/灯球.html",
           },
           {
             title: "Loading合集🍄",
