@@ -22,141 +22,137 @@ module.exports = {
       },
       {
         title: "CSS Base",
-        collapsable: false,
+        collapsable: true,
         children: [
           {
-            title: "Scss",
-            children: [
-              {
-                title: "Scss基础",
-                path: "/base/scss/scss基础.html",
-              },
-              {
-                title: "Scss高级",
-                path: "/base/scss/scss进阶.html",
-              },
-            ],
+            title: "note",
+            children:[
+                    {
+                      title: "Scss高级",
+                      path: "/base/scss/scss进阶.html",
+                    },
+                    {
+                      title: "背景",
+                      path: "/base/background/background.html",
+                      children: [
+                        {
+                          title: "background-image",
+                          path: "/base/background/backgroundImage.html",
+                        },
+                        {
+                          title: "background-repeat",
+                          path: "/base/background/backgroundRepeat.html",
+                        },
+                        {
+                          title: "background-position",
+                          path: "/base/background/backgroundPosition.html",
+                        },
+                        {
+                          title: "background-attachment",
+                          path: "/base/background/backgroundAttachment.html",
+                        },
+                        {
+                          title: "background-clip",
+                          path: "/base/background/backgroundClip.html",
+                        },
+                        {
+                          title: "background-origin",
+                          path: "/base/background/backgroundOrigin.html",
+                        },
+                        {
+                          title: "background-size",
+                          path: "/base/background/backgroundSize.html",
+                        },
+                        {
+                          title: "background-blend-mode",
+                          path: "/base/background/backgroundBlendMode.html",
+                        },
+                      ],
+                    },
+                    {
+                      title: "渐变",
+                      children: [
+                        {
+                          title: "linear-gradient",
+                          path: "/base/gradient/linearGradient.html",
+                        },
+                        {
+                          title: "radial-gradient",
+                          path: "/base/gradient/radialGradient.html",
+                        },
+                      ],
+                    },
+                    {
+                      title: "阴影",
+                      children: [
+                        {
+                          title: "box-shadow",
+                          path: "/base/boxshadow/boxShadow.html",
+                        },
+                        {
+                          title: "text-shadow",
+                          path: "/base/boxshadow/textShadow.html",
+                        },
+                      ],
+                    },
+                    {
+                      title: "边框",
+                      children: [
+                        {
+                          title: "border",
+                          path: "/base/border/border.html",
+                        },
+                        {
+                          title: "border-radius",
+                          path: "/base/border/borderradius.html",
+                        },
+                      ],
+                    },
+                    {
+                      title: "动画",
+                      children: [
+                        {
+                          title: "transition",
+                          path: "/base/animate/transition.html",
+                        },
+                        {
+                          title: "transform2d",
+                          path: "/base/animate/transform2d.html",
+                        },
+                        {
+                          title: "transform3d",
+                          path: "/base/animate/transform3d.html",
+                        },
+                        {
+                          title: "animation",
+                          path: "/base/animate/animation.html",
+                        },
+                        {
+                          title: "逐帧动画和补帧动画",
+                          path: "/base/animate/steps.html",
+                        },
+                      ],
+                    },
+                    {
+                      title: "滤镜",
+                      children: [
+                        {
+                          title: "filter",
+                          path: "/base/filter/滤镜.html",
+                        },
+                      ],
+                    },
+                    // {
+                    //   title: "布局",
+                    //   children: [
+                    //     {
+                    //       title: "瀑布流布局",
+                    //       path: "/base/布局/瀑布流布局.html",
+                    //     },
+                    //   ],
+                    // },
+            ]
           },
-          {
-            title: "背景",
-            path: "/base/background/background.html",
-            children: [
-              {
-                title: "background-image",
-                path: "/base/background/backgroundImage.html",
-              },
-              {
-                title: "background-repeat",
-                path: "/base/background/backgroundRepeat.html",
-              },
-              {
-                title: "background-position",
-                path: "/base/background/backgroundPosition.html",
-              },
-              {
-                title: "background-attachment",
-                path: "/base/background/backgroundAttachment.html",
-              },
-              {
-                title: "background-clip",
-                path: "/base/background/backgroundClip.html",
-              },
-              {
-                title: "background-origin",
-                path: "/base/background/backgroundOrigin.html",
-              },
-              {
-                title: "background-size",
-                path: "/base/background/backgroundSize.html",
-              },
-              {
-                title: "background-blend-mode",
-                path: "/base/background/backgroundBlendMode.html",
-              },
-            ],
-          },
-          {
-            title: "渐变",
-            children: [
-              {
-                title: "linear-gradient",
-                path: "/base/gradient/linearGradient.html",
-              },
-              {
-                title: "radial-gradient",
-                path: "/base/gradient/radialGradient.html",
-              },
-            ],
-          },
-          {
-            title: "阴影",
-            children: [
-              {
-                title: "box-shadow",
-                path: "/base/boxshadow/boxShadow.html",
-              },
-              {
-                title: "text-shadow",
-                path: "/base/boxshadow/textShadow.html",
-              },
-            ],
-          },
-          {
-            title: "边框",
-            children: [
-              {
-                title: "border",
-                path: "/base/border/border.html",
-              },
-              {
-                title: "border-radius",
-                path: "/base/border/borderradius.html",
-              },
-            ],
-          },
-          {
-            title: "动画",
-            children: [
-              {
-                title: "transition",
-                path: "/base/animate/transition.html",
-              },
-              {
-                title: "transform2d",
-                path: "/base/animate/transform2d.html",
-              },
-              {
-                title: "transform3d",
-                path: "/base/animate/transform3d.html",
-              },
-              {
-                title: "animation",
-                path: "/base/animate/animation.html",
-              },
-              {
-                title: "逐帧动画和补帧动画",
-                path: "/base/animate/steps.html",
-              },
-            ],
-          },
-          {
-            title: "滤镜",
-            children: [
-              {
-                title: "filter",
-                path: "/base/filter/滤镜.html",
-              },
-            ],
-          },
-          // {
-          //   title: "布局",
-          //   children: [
-          //     {
-          //       title: "瀑布流布局",
-          //       path: "/base/布局/瀑布流布局.html",
-          //     },
-          //   ],
-          // },
         ],
       },
       {
@@ -262,6 +258,16 @@ module.exports = {
             title: "Loading合集🍄",
             path: "/general/loading合集.html",
           }
+        ],
+      },
+      {
+        title: "CSS Doodle",
+        collapsable: false,
+        children: [
+          // {
+          //   title: "",
+          //   path: "/doole/如何截取图片.html",
+          // },
         ],
       },
       {
