@@ -269,9 +269,13 @@ module.exports = {
         collapsable: false,
         children: [
           {
+            title: "css doodle 紫色的云彩",
+            path: "/doodle/cloud.html",
+          },
+          {
             title: "css doodle emoji",
             path: "/doodle/emoji.html",
-          },
+          }
         ],
       },
       {
