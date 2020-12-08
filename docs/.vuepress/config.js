@@ -23,13 +23,19 @@ module.exports = {
       {
         title: "CSS Base",
         collapsable: true,
-        children: [
-          {
-            title: "note",
-            children:[
+        children:[
                     {
-                      title: "Scss高级",
-                      path: "/base/scss/scss进阶.html",
+                      title: "Scss",
+                      children: [
+                        {
+                          title: "Scss基础",
+                          path: "/base/scss/scss基础.html",
+                        },
+                        {
+                          title: "Scss进阶",
+                          path: "/base/scss/scss进阶.html",
+                        }
+                      ]
                     },
                     {
                       title: "背景",
@@ -151,9 +157,7 @@ module.exports = {
                     //     },
                     //   ],
                     // },
-            ]
-          },
-        ],
+        ]
       },
       {
         title: "CSS Inspiration",
