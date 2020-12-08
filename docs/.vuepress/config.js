@@ -264,10 +264,10 @@ module.exports = {
         title: "CSS Doodle",
         collapsable: false,
         children: [
-          // {
-          //   title: "",
-          //   path: "/doole/如何截取图片.html",
-          // },
+          {
+            title: "css doodle emoji",
+            path: "/doodle/emoji.html",
+          },
         ],
       },
       {
