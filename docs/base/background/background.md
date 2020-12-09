@@ -15,3 +15,15 @@ background-attachment|背景图像是否固定
 background-origin|背景图像原点位置
 background-blend-mode|背景图像的混合模式
 background-color|背景图像的颜色 background:currentColor=color
+
+---
+
+### 注意点
+1. 在 background 里面加个斜杠 “/” ，斜杠前面部分是 background-position 属性的值，后面部分是 background-size 的值。
+```javascript
+background: @multi(@r(200, 240), (
+    radial-gradient(@p(#fff) 15%,transparent 50%) 
+    @r(100%) @r(100%) / @r(.3%, .1%, .1) @lr() no-repeat
+));
+```
+`@r(100%) @r(100%) / @r(.3%, .1%, .1)`前面是position的值，后面是size的值
