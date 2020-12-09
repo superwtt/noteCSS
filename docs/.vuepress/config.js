@@ -269,7 +269,7 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: "css doodle 紫色的云彩",
+            title: "css doodle 许你一片紫色的天空",
             path: "/doodle/cloud.html",
           },
           {
