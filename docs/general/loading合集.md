@@ -22,5 +22,7 @@
 15. Animation49TranslateLeft和Animation50TranslateRight：设置动画节点交错，Animation49TranslateLeft动画，0-25%的时候向左移动18px的距离，其余节点为0。Animation50TranslateRight动画在75%的时候向右移动18px的距离，其余时间为0
 16. Animation68Height：设置父容器为flex，并且子元素垂直居中对齐的原因是，子元素在高度动画时会有抖动，将它们固定在一个位置，另外需要加个固定高速30px，因为子元素是从5px开始动画的，如果没有高度固定，将父元素撑开，动画依旧会抖动
 
+99. 遵循的规律不过是动画元素的组合、拆分，容器的组合、拆分，四种情况排列组合，就可以形成不同的加载动画
+
 #### 示例
 <iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/GRqPqmb?height=450&theme-id=default&default-tab=result"></iframe>
