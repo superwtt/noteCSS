@@ -148,6 +148,41 @@ module.exports = {
                         },
                       ],
                     },
+                    {
+                      title: "SVG",
+                      children: [
+                        {
+                          title: "svg基础速记",
+                          path: "/base/svg/svg基础速记/svg基础速记.html",
+                          children: [
+                            {
+                              title: "圆形",
+                              path: "/base/svg/svg基础速记/图形/圆形.html",
+                            },
+                            {
+                              title: "矩形",
+                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                            },
+                            {
+                              title: "椭圆",
+                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                            },
+                            {
+                              title: "直线",
+                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                            },
+                            {
+                              title: "多边形",
+                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                            },
+                            {
+                              title: "曲线",
+                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                            },
+                          ],
+                        },
+                      ],
+                    },
                     // {
                     //   title: "布局",
                     //   children: [
