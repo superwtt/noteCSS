@@ -159,7 +159,6 @@ module.exports = {
                           children:[
                             {
                               title: "SVG基本图形",
-                              collapsable: true,
                               children: [
                                 {
                                   title: "圆形",
@@ -186,9 +185,21 @@ module.exports = {
                                   path: "/base/svg/svg基础速记/图形/曲线.html",
                                 },
                               ],
+                            },
+                            {
+                              title:"SVG属性以及操作api",
+                              children:[
+                                {
+                                  title:"SVG元素和属性",
+                                  path: "/base/svg/svg基础速记/SVG属性以及操作api/SVG元素和属性.html",
+                                },
+                                {
+                                  title:"SVG操作API",
+                                  path: "/base/svg/svg基础速记/SVG属性以及操作api/SVG操作API.html",
+                                },
+                              ]
                             }
                           ]
-                          
                         },
                       ],
                     },
