@@ -150,36 +150,45 @@ module.exports = {
                     },
                     {
                       title: "SVG",
+                      collapsable: true,
                       children: [
                         {
                           title: "svg基础速记",
                           path: "/base/svg/svg基础速记/svg基础速记.html",
-                          children: [
+                          collapsable: true,
+                          children:[
                             {
-                              title: "圆形",
-                              path: "/base/svg/svg基础速记/图形/圆形.html",
-                            },
-                            {
-                              title: "矩形",
-                              path: "/base/svg/svg基础速记/图形/矩形.html",
-                            },
-                            {
-                              title: "椭圆",
-                              path: "/base/svg/svg基础速记/图形/椭圆.html",
-                            },
-                            {
-                              title: "直线",
-                              path: "/base/svg/svg基础速记/图形/直线.html",
-                            },
-                            {
-                              title: "多边形",
-                              path: "/base/svg/svg基础速记/图形/多边形.html",
-                            },
-                            {
-                              title: "曲线",
-                              path: "/base/svg/svg基础速记/图形/曲线.html",
-                            },
-                          ],
+                              title: "SVG基本图形",
+                              collapsable: true,
+                              children: [
+                                {
+                                  title: "圆形",
+                                  path: "/base/svg/svg基础速记/图形/圆形.html",
+                                },
+                                {
+                                  title: "矩形",
+                                  path: "/base/svg/svg基础速记/图形/矩形.html",
+                                },
+                                {
+                                  title: "椭圆",
+                                  path: "/base/svg/svg基础速记/图形/椭圆.html",
+                                },
+                                {
+                                  title: "直线",
+                                  path: "/base/svg/svg基础速记/图形/直线.html",
+                                },
+                                {
+                                  title: "多边形",
+                                  path: "/base/svg/svg基础速记/图形/多边形.html",
+                                },
+                                {
+                                  title: "曲线",
+                                  path: "/base/svg/svg基础速记/图形/曲线.html",
+                                },
+                              ],
+                            }
+                          ]
+                          
                         },
                       ],
                     },
