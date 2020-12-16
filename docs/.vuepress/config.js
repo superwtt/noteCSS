@@ -184,18 +184,35 @@ module.exports = {
                                   title: "曲线",
                                   path: "/base/svg/svg基础速记/图形/曲线.html",
                                 },
+                                {
+                                  title: "path",
+                                  path: "/base/svg/svg基础速记/图形/path.html",
+                                },
                               ],
                             },
                             {
-                              title:"SVG属性以及操作api",
+                              title:"SVG属性和元素",
                               children:[
                                 {
                                   title:"SVG元素和属性",
-                                  path: "/base/svg/svg基础速记/SVG属性以及操作api/SVG元素和属性.html",
+                                  path: "/base/svg/svg基础速记/SVG属性和元素/SVG元素和属性.html",
                                 },
                                 {
                                   title:"SVG操作API",
-                                  path: "/base/svg/svg基础速记/SVG属性以及操作api/SVG操作API.html",
+                                  path: "/base/svg/svg基础速记/SVG属性和元素/SVG操作API.html",
+                                },
+                              ]
+                            },
+                            {
+                              title:"SVG中的特殊元素",
+                              children:[
+                                {
+                                  title:"渐变",
+                                  path: "/base/svg/svg基础速记/SVG中的特殊元素/渐变.html",
+                                },
+                                {
+                                  title:"滤镜",
+                                  path: "/base/svg/svg基础速记/SVG中的特殊元素/滤镜.html",
                                 },
                               ]
                             }

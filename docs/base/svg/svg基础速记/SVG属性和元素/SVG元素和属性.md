@@ -15,6 +15,7 @@
 `<ellipse>`|用于创建SVG的基本图形-椭圆
 `<fe-xxx>`|SVG滤镜
 `<line>`|用于创建SVVG基本图形-直线
+`<path>`|用来定义形状的通用元素，所有的基本形状都可以用path元素来创建
 `<marker>`|在特定的`<path>`元素、`<line>`元素、`<polyline>`元素、`<polygon>`元素上绘制箭头或多边标记图形
 其他元素|参见MDN
 ---
