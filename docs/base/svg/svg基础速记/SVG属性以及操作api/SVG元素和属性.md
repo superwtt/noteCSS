@@ -12,7 +12,11 @@
 `<circle>`|用于创建SVG的基本图形-圆形
 `<clipPath>`|剪切路径
 `<defs>`|建议把所有需要再次使用的引用元素定义在`defs`元素里面，增加了SVG内容的易读性和可访问性
-
+`<ellipse>`|用于创建SVG的基本图形-椭圆
+`<fe-xxx>`|SVG滤镜
+`<line>`|用于创建SVVG基本图形-直线
+`<marker>`|在特定的`<path>`元素、`<line>`元素、`<polyline>`元素、`<polygon>`元素上绘制箭头或多边标记图形
+其他元素|参见MDN
 ---
 
 #### SVG属性
@@ -26,3 +30,4 @@ stroke|定义元素边框的颜色，相当于border-color
 stroke-width|定义元素边框的宽度，相当于border-thickness
 stroke-opacity|定义元素边框的透明度，相当于border-color设置rgba
 rx,ry|定义元素的圆角，相当于border-radius
+其他属性|参见MDN
