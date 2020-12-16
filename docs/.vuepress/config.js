@@ -165,19 +165,19 @@ module.exports = {
                             },
                             {
                               title: "椭圆",
-                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                              path: "/base/svg/svg基础速记/图形/椭圆.html",
                             },
                             {
                               title: "直线",
-                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                              path: "/base/svg/svg基础速记/图形/直线.html",
                             },
                             {
                               title: "多边形",
-                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                              path: "/base/svg/svg基础速记/图形/多边形.html",
                             },
                             {
                               title: "曲线",
-                              path: "/base/svg/svg基础速记/图形/矩形.html",
+                              path: "/base/svg/svg基础速记/图形/曲线.html",
                             },
                           ],
                         },
