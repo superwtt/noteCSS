@@ -1,28 +1,42 @@
 ### SVG路径 path
 
-`<path>`元素是用来定义形状的通用元素，所有的基本形状都可以用`<path>`元素来创建。<br/>
+`<path>`元素是用来定义形状的通用元素，所有的基本形状都可以用`<path>`元素来创建。<br/>更多查看[MDN](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial/Paths)
 
 ---
 
 #### path和polygon的区别：
 
 1. polygon和折现很像，它们都是由连接一组点集的直线构成，不同的是，polygon的路径在最后一个点自动回到第一个点。
+
 2. path只需要设置很少的点，就可以创建平滑的直线或曲线，polygon元素也能实现类似的效果，但是必须设置大量密集的点，点越密集，越接近连续，看起来越平滑流畅
 
 ---
 
-#### 直线命令
+#### path命令
 `<path>`命令均允许小写，大写表示绝对定位，小写表示相对定位，命令如下：
-+ M = move to
-+ L = line to
-+ H = horizontal lineto
-+ V = vertical lineto
-+ C = curveto
-+ S = smooth curveto
-+ Q = quadratic Bézier curve
-+ T = smooth quadratic Bézier curveto
-+ A = elliptical Arc
-+ Z = close path 
++ M = move to：需要两个参数，分别是需要移动到的点的x轴和y轴的坐标。假设你的画笔当前位于一个点，在使用M命令移动画笔之后，只会移动画笔，但不会在两点画线，因为M仅仅是移动画笔但不画线。所以M命令经常出现在路径的开始处，用来指明从何处开始画。
+
++ L = line to：能够画出线的命令，L需要两个参数，分别是一个点的x轴坐标和y轴坐标，L命令会在当前位置和新位置之间画一条线。
+
++ H = horizontal lineto：绘制水平线，只带一个参数，标明在x轴移动到的位置，只在坐标轴的一个方向移动
++ V = vertical lineto：绘制垂直线，只带一个参数，标明在y轴移动到的位置，只在坐标轴的一个方向移动
++ C = curveto：绘制三次贝塞尔曲线，C x1 y1 x2 y2 x y，当前点为起点，xy为终点，起点和x1y1控制曲线起始点的斜率，终点和x2y2控制结束点的斜率
++ S = smooth curveto：简化的贝塞尔曲线
++ Q = quadratic Bézier curve：Q x1 y1 x y 二次贝塞尔曲线Q，只需要一个控制点，用来确定起点和终点的曲线斜率，因此需要两组参数，控制点和终点的坐标
++ T = smooth quadratic Bézier curveto：Q命令的简写，与S命令相似，T也会根据前一个控制点，推断出一个新的控制点
++ A = elliptical Arc：弧形命令
++ Z = close path：闭合路径命令，Z命令会从当前点画一条直线到路径的起点，尽管我们不总是需要闭合路径，但是它还是经常被放到路径的最后，不区分大小写
+
+M/L/H/V的大写指明了一个具体的坐标，小写表示相对于它前面的点需要移动的距离
+
++ M x y = m dx dy
+
++ L x y = l dx dy
+
++ H x y = h dx
+
++ V x y = v dy
+
 
 ```javascript
 <svg width="100%" height="100%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
@@ -33,3 +47,43 @@
 + 坐标先移动到（150,0）的位置
 + 接着画线到（75,200）的位置，再画线到（225,200）的位置
 + 闭合图像
+
+---
+
+#### 贝塞尔曲线
+1. 三次贝塞尔曲线C
+`C x1 y1, x2 y2,x y` 或者 `c dx1 dy1, dx2 dy2, x y`
+坐标（x y）表示的是曲线的终点，另外两个坐标是控制点，（x1,y1）是起点的控制点，（x2,y2）是终点的控制点。控制点描述的是起始点的斜率，曲线上的各个点的斜率，是从起点斜率到终点斜率的渐变过程
+
+2. 三次贝塞尔曲线C-简化的贝塞尔曲线S
+`S x2 y2,x y` 或者 `s dx2 dy2, dx dy`
+S命令可以用来创建与前面一样的贝塞尔曲线，如果S命令跟在一个C或者S命令后面，则它的第一个控制点会被认为是前一个曲线的第二个控制点的中心对称点
+```javascript
+<svg width="190px" height="160px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent"/>
+</svg>
+```
+该曲线从（10,80）的位置开始，第一个控制点是（40,10），第二个控制点是（65,10），曲线的结束点是（95,80）。第二条曲线的第一个控制点计算得出是（130,160），第二个控制点是（150,150），终点是（180,180）
+
+3. 二次贝塞尔曲线Q
+`Q x1 y1, x2 y2` 或者`q dx1 dy1, dx dy`
+二次贝塞尔曲线只需要一个控制点，用来确定起点和终点的曲线斜率，所以它需要两组参数，控制点和终点的坐标
+
+4. 二次贝塞尔曲线-简化的贝塞尔曲线T命令
+`T x y` 或者 `t dx dy`
+就像三次贝塞尔曲线有一个S命令，二次贝塞尔曲线有一个差不多的T命令，可以通过更加简短的参数，延长二次贝塞尔曲线
+
+
+---
+
+#### 弧形命令
+弧形命令是另外一个创建SVG曲线的命令，弧形可以视为圆形或者椭圆形的一部分。
+`A rx ry x-axis-rotation large-arc-flag sweep-flag x y` 或者 `a rx ry x-axis-rotation large-arc-flag sweep-flag dx dy`
+
+其中，
++ rx：长轴半径
++ ry：短轴半径
++ x-aris-rotation： x轴旋转角度
++ large-arc-flag：表示弧线是大于还是小于180度，取值0或者1,0表示小角度弧，1表示大角度弧
++ sweep-flag：表示弧线方向，0表示从起点到终点沿逆时针画弧，1表示从起点到终点顺时针画弧
++ x y：弧线的终点
