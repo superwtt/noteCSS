@@ -375,9 +375,14 @@ module.exports = {
           {
             title: "CSS如何截取图片",
             path: "/q&a/如何截取图片.html",
-          },{
+          },
+          {
             title: "失效的定位",
             path: "/q&a/失效的定位.html",
+          },
+          {
+            title: "absolute和relative的层级",
+            path: "/q&a/absolute和relative的层级问题.html",
           },
         ],
       },
