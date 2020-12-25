@@ -355,6 +355,16 @@ module.exports = {
         ],
       },
       {
+        title: "SVG",
+        collapsable: false,
+        children: [
+          {
+            title: "SVG实现按钮加载动画",
+            path: "/svg/SVG实现按钮加载动画.html",
+          }
+        ],
+      },
+      {
         title: "CSS Tools",
         collapsable: false,
         children: [
