@@ -1,6 +1,6 @@
 ### SVG 元素和属性
 
-这里汇总了SVG的元素和属性属性，全部内容参考[MDN](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element)
+这里汇总了SVG的元素和属性属性，全部内容参考[MDN](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element)或者[这里-讲解很详细](https://www.cnblogs.com/w3cdream/p/4995122.html)
 
 ---
 

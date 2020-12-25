@@ -1,8 +1,8 @@
 ### Loading合集
-在这里收集好看的loading样式~
 
-::: danger 警告
-this is a tip
+
+::: tip
+在这里收集好看的loading样式~
 :::
 
 ---

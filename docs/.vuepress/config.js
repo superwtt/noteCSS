@@ -359,8 +359,12 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: "SVG实现按钮动画",
-            path: "/svg/SVG实现按钮动画.html",
+            title: "SVG实现按钮边框动画",
+            path: "/svg/SVG实现按钮边框动画.html",
+          },
+          {
+            title: "SVG实现加载小动画",
+            path: "/svg/SVG实现加载小动画.html",
           }
         ],
       },
