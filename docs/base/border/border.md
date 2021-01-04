@@ -26,4 +26,4 @@ outset|3D outset边框，显示为有突出效果的边框，样式与inset相�
 ---
 
 #### 示例
-<iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/ZEQNper?height=450&theme-id=default&default-tab=result"></iframe>
+<iframe width="90%" height="550" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/ZEQNper?height=450&theme-id=default&default-tab=result"></iframe>

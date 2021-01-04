@@ -44,7 +44,7 @@ CSS 渐变可以让我们在两个或多个指定的颜色之间显示平稳的�
 ---
 
 #### 示例
-<iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/rNxRYyG?height=450&theme-id=default&default-tab=result"></iframe>
+<iframe width="90%" height="550" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/rNxRYyG?height=450&theme-id=default&default-tab=result"></iframe>
 
 ---
 

@@ -15,7 +15,7 @@ content-box|从内容区域开始绘制
 ---
 
 #### 示例
-<iframe width="90%" height="450" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/ZEQwgpm?height=450&theme-id=default&default-tab=result"></iframe>
+<iframe width="90%" height="550" allowfullscreen="allowfullscreen" src="https://codepen.io/superwtt/embed/ZEQwgpm?height=450&theme-id=default&default-tab=result"></iframe>
 
 #### 参考链接
 [什么是绘制区域](https://www.jianshu.com/p/371037d76d0a)
