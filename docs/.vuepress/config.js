@@ -365,6 +365,10 @@ module.exports = {
           {
             title: "SVG实现加载小动画",
             path: "/svg/SVG实现加载小动画.html",
+          },
+          {
+            title: "环形进度条",
+            path: "/svg/环形进度条.html",
           }
         ],
       },
