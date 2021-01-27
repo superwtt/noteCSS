@@ -128,7 +128,7 @@ $list:admin john jerry mason;
 5. abs()
 6. max()
 7. min()
-8. random()
+8. random()返回0-1之间的小数，random(number)返回1-number之间的整数，包括1和limit
 
 ---
 

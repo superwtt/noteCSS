@@ -23,213 +23,215 @@ module.exports = {
       {
         title: "CSS Base",
         collapsable: true,
-        children:[
-                    {
-                      title: "Scss",
-                      children: [
-                        {
-                          title: "Scss基础",
-                          path: "/base/scss/scss基础.html",
-                        },
-                        {
-                          title: "Scss进阶",
-                          path: "/base/scss/scss进阶.html",
-                        }
-                      ]
-                    },
-                    {
-                      title: "背景",
-                      path: "/base/background/background.html",
-                      children: [
-                        {
-                          title: "background-image",
-                          path: "/base/background/backgroundImage.html",
-                        },
-                        {
-                          title: "background-repeat",
-                          path: "/base/background/backgroundRepeat.html",
-                        },
-                        {
-                          title: "background-position",
-                          path: "/base/background/backgroundPosition.html",
-                        },
-                        {
-                          title: "background-attachment",
-                          path: "/base/background/backgroundAttachment.html",
-                        },
-                        {
-                          title: "background-clip",
-                          path: "/base/background/backgroundClip.html",
-                        },
-                        {
-                          title: "background-origin",
-                          path: "/base/background/backgroundOrigin.html",
-                        },
-                        {
-                          title: "background-size",
-                          path: "/base/background/backgroundSize.html",
-                        },
-                        {
-                          title: "background-blend-mode",
-                          path: "/base/background/backgroundBlendMode.html",
-                        },
-                      ],
-                    },
-                    {
-                      title: "渐变",
-                      children: [
-                        {
-                          title: "linear-gradient",
-                          path: "/base/gradient/linearGradient.html",
-                        },
-                        {
-                          title: "radial-gradient",
-                          path: "/base/gradient/radialGradient.html",
-                        },
-                      ],
-                    },
-                    {
-                      title: "阴影",
-                      children: [
-                        {
-                          title: "box-shadow",
-                          path: "/base/boxshadow/boxShadow.html",
-                        },
-                        {
-                          title: "text-shadow",
-                          path: "/base/boxshadow/textShadow.html",
-                        },
-                      ],
-                    },
-                    {
-                      title: "边框",
-                      children: [
-                        {
-                          title: "border",
-                          path: "/base/border/border.html",
-                        },
-                        {
-                          title: "border-radius",
-                          path: "/base/border/borderradius.html",
-                        },
-                      ],
-                    },
-                    {
-                      title: "动画",
-                      children: [
-                        {
-                          title: "transition",
-                          path: "/base/animate/transition.html",
-                        },
-                        {
-                          title: "transform2d",
-                          path: "/base/animate/transform2d.html",
-                        },
-                        {
-                          title: "transform3d",
-                          path: "/base/animate/transform3d.html",
-                        },
-                        {
-                          title: "animation",
-                          path: "/base/animate/animation.html",
-                        },
-                        {
-                          title: "逐帧动画和补帧动画",
-                          path: "/base/animate/steps.html",
-                        },
-                      ],
-                    },
-                    {
-                      title: "滤镜",
-                      children: [
-                        {
-                          title: "filter",
-                          path: "/base/filter/滤镜.html",
-                        },
-                      ],
-                    },
-                    {
-                      title: "SVG",
-                      collapsable: true,
-                      children: [
-                        {
-                          title: "svg基础速记",
-                          path: "/base/svg/svg基础速记/svg基础速记.html",
-                          collapsable: true,
-                          children:[
-                            {
-                              title: "SVG基本图形",
-                              children: [
-                                {
-                                  title: "圆形",
-                                  path: "/base/svg/svg基础速记/图形/圆形.html",
-                                },
-                                {
-                                  title: "矩形",
-                                  path: "/base/svg/svg基础速记/图形/矩形.html",
-                                },
-                                {
-                                  title: "椭圆",
-                                  path: "/base/svg/svg基础速记/图形/椭圆.html",
-                                },
-                                {
-                                  title: "直线",
-                                  path: "/base/svg/svg基础速记/图形/直线.html",
-                                },
-                                {
-                                  title: "多边形",
-                                  path: "/base/svg/svg基础速记/图形/多边形.html",
-                                },
-                                {
-                                  title: "曲线",
-                                  path: "/base/svg/svg基础速记/图形/曲线.html",
-                                },
-                                {
-                                  title: "path",
-                                  path: "/base/svg/svg基础速记/图形/path.html",
-                                },
-                              ],
-                            },
-                            {
-                              title:"SVG属性和元素",
-                              children:[
-                                {
-                                  title:"SVG元素和属性",
-                                  path: "/base/svg/svg基础速记/SVG属性和元素/SVG元素和属性.html",
-                                },
-                                {
-                                  title:"SVG操作API",
-                                  path: "/base/svg/svg基础速记/SVG属性和元素/SVG操作API.html",
-                                },
-                              ]
-                            },
-                            {
-                              title:"SVG中的特殊元素",
-                              children:[
-                                {
-                                  title:"渐变",
-                                  path: "/base/svg/svg基础速记/SVG中的特殊元素/渐变.html",
-                                },
-                                {
-                                  title:"滤镜",
-                                  path: "/base/svg/svg基础速记/SVG中的特殊元素/滤镜.html",
-                                },
-                              ]
-                            }
-                          ]
-                        },
-                      ],
-                    },
-                    // {
-                    //   title: "布局",
-                    //   children: [
-                    //     {
-                    //       title: "瀑布流布局",
-                    //       path: "/base/布局/瀑布流布局.html",
-                    //     },
-                    //   ],
-                    // },
-        ]
+        children: [
+          {
+            title: "Scss",
+            children: [
+              {
+                title: "Scss基础",
+                path: "/base/scss/scss基础.html",
+              },
+              {
+                title: "Scss进阶",
+                path: "/base/scss/scss进阶.html",
+              },
+            ],
+          },
+          {
+            title: "背景",
+            path: "/base/background/background.html",
+            children: [
+              {
+                title: "background-image",
+                path: "/base/background/backgroundImage.html",
+              },
+              {
+                title: "background-repeat",
+                path: "/base/background/backgroundRepeat.html",
+              },
+              {
+                title: "background-position",
+                path: "/base/background/backgroundPosition.html",
+              },
+              {
+                title: "background-attachment",
+                path: "/base/background/backgroundAttachment.html",
+              },
+              {
+                title: "background-clip",
+                path: "/base/background/backgroundClip.html",
+              },
+              {
+                title: "background-origin",
+                path: "/base/background/backgroundOrigin.html",
+              },
+              {
+                title: "background-size",
+                path: "/base/background/backgroundSize.html",
+              },
+              {
+                title: "background-blend-mode",
+                path: "/base/background/backgroundBlendMode.html",
+              },
+            ],
+          },
+          {
+            title: "渐变",
+            children: [
+              {
+                title: "linear-gradient",
+                path: "/base/gradient/linearGradient.html",
+              },
+              {
+                title: "radial-gradient",
+                path: "/base/gradient/radialGradient.html",
+              },
+            ],
+          },
+          {
+            title: "阴影",
+            children: [
+              {
+                title: "box-shadow",
+                path: "/base/boxshadow/boxShadow.html",
+              },
+              {
+                title: "text-shadow",
+                path: "/base/boxshadow/textShadow.html",
+              },
+            ],
+          },
+          {
+            title: "边框",
+            children: [
+              {
+                title: "border",
+                path: "/base/border/border.html",
+              },
+              {
+                title: "border-radius",
+                path: "/base/border/borderradius.html",
+              },
+            ],
+          },
+          {
+            title: "动画",
+            children: [
+              {
+                title: "transition",
+                path: "/base/animate/transition.html",
+              },
+              {
+                title: "transform2d",
+                path: "/base/animate/transform2d.html",
+              },
+              {
+                title: "transform3d",
+                path: "/base/animate/transform3d.html",
+              },
+              {
+                title: "animation",
+                path: "/base/animate/animation.html",
+              },
+              {
+                title: "逐帧动画和补帧动画",
+                path: "/base/animate/steps.html",
+              },
+            ],
+          },
+          {
+            title: "滤镜",
+            children: [
+              {
+                title: "filter",
+                path: "/base/filter/滤镜.html",
+              },
+            ],
+          },
+          {
+            title: "SVG",
+            collapsable: true,
+            children: [
+              {
+                title: "svg基础速记",
+                path: "/base/svg/svg基础速记/svg基础速记.html",
+                collapsable: true,
+                children: [
+                  {
+                    title: "SVG基本图形",
+                    children: [
+                      {
+                        title: "圆形",
+                        path: "/base/svg/svg基础速记/图形/圆形.html",
+                      },
+                      {
+                        title: "矩形",
+                        path: "/base/svg/svg基础速记/图形/矩形.html",
+                      },
+                      {
+                        title: "椭圆",
+                        path: "/base/svg/svg基础速记/图形/椭圆.html",
+                      },
+                      {
+                        title: "直线",
+                        path: "/base/svg/svg基础速记/图形/直线.html",
+                      },
+                      {
+                        title: "多边形",
+                        path: "/base/svg/svg基础速记/图形/多边形.html",
+                      },
+                      {
+                        title: "曲线",
+                        path: "/base/svg/svg基础速记/图形/曲线.html",
+                      },
+                      {
+                        title: "path",
+                        path: "/base/svg/svg基础速记/图形/path.html",
+                      },
+                    ],
+                  },
+                  {
+                    title: "SVG属性和元素",
+                    children: [
+                      {
+                        title: "SVG元素和属性",
+                        path:
+                          "/base/svg/svg基础速记/SVG属性和元素/SVG元素和属性.html",
+                      },
+                      {
+                        title: "SVG操作API",
+                        path:
+                          "/base/svg/svg基础速记/SVG属性和元素/SVG操作API.html",
+                      },
+                    ],
+                  },
+                  {
+                    title: "SVG中的特殊元素",
+                    children: [
+                      {
+                        title: "渐变",
+                        path: "/base/svg/svg基础速记/SVG中的特殊元素/渐变.html",
+                      },
+                      {
+                        title: "滤镜",
+                        path: "/base/svg/svg基础速记/SVG中的特殊元素/滤镜.html",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          // {
+          //   title: "布局",
+          //   children: [
+          //     {
+          //       title: "瀑布流布局",
+          //       path: "/base/布局/瀑布流布局.html",
+          //     },
+          //   ],
+          // },
+        ],
       },
       {
         title: "CSS Inspiration",
@@ -327,13 +329,17 @@ module.exports = {
             path: "/general/灯球.html",
           },
           {
-            title: "纯CSS实现落雪满南山⛄",
+            title: "纯CSS实现落雪满山⛄",
             path: "/general/下雪.html",
+          },
+          {
+            title: "巧用随机数实现闪烁的星空🌛",
+            path: "/general/巧用随机数实现闪烁的星空.html",
           },
           {
             title: "Loading合集🍄",
             path: "/general/loading合集.html",
-          }
+          },
         ],
       },
       {
@@ -369,7 +375,7 @@ module.exports = {
           {
             title: "环形进度条",
             path: "/svg/环形进度条.html",
-          }
+          },
         ],
       },
       {
