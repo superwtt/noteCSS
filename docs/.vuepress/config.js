@@ -313,6 +313,15 @@ module.exports = {
         ],
       },
       {
+        title:"布局（Layout）",
+        children:[
+          {
+            title:"双飞翼布局",
+            path:"/layout/双飞翼布局.html"
+          }
+        ]
+      },
+      {
         title: "CSS General",
         collapsable: false,
         children: [
