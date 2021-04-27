@@ -318,6 +318,10 @@ module.exports = {
           {
             title:"双飞翼布局",
             path:"/layout/双飞翼布局.html"
+          },
+          {
+            title:"圣杯布局",
+            path:"/layout/圣杯布局.html"
           }
         ]
       },
