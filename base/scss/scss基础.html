@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Scss基础知识 |  </title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/noteCSS/favicon.ico">
+    <meta name="description" content="Note CSS -- CSS学习之路">
+    
+    <link rel="preload" href="/noteCSS/assets/css/0.styles.3be0dd5c.css" as="style"><link rel="preload" href="/noteCSS/assets/js/app.42083bfb.js" as="script"><link rel="preload" href="/noteCSS/assets/js/2.2934c4fe.js" as="script"><link rel="preload" href="/noteCSS/assets/js/30.70366a60.js" as="script"><link rel="prefetch" href="/noteCSS/assets/js/10.8813bd1c.js"><link rel="prefetch" href="/noteCSS/assets/js/11.8b4717a2.js"><link rel="prefetch" href="/noteCSS/assets/js/12.800b1865.js"><link rel="prefetch" href="/noteCSS/assets/js/13.0c51bcde.js"><link rel="prefetch" href="/noteCSS/assets/js/14.c591383b.js"><link rel="prefetch" href="/noteCSS/assets/js/15.81986f6e.js"><link rel="prefetch" href="/noteCSS/assets/js/16.f4b835c7.js"><link rel="prefetch" href="/noteCSS/assets/js/17.59f6f933.js"><link rel="prefetch" href="/noteCSS/assets/js/18.0e02a2b1.js"><link rel="prefetch" href="/noteCSS/assets/js/19.c60be77b.js"><link rel="prefetch" href="/noteCSS/assets/js/20.58234e68.js"><link rel="prefetch" href="/noteCSS/assets/js/21.704dfabe.js"><link rel="prefetch" href="/noteCSS/assets/js/22.60c6cc7e.js"><link rel="prefetch" href="/noteCSS/assets/js/23.25f137cc.js"><link rel="prefetch" href="/noteCSS/assets/js/24.d39c502c.js"><link rel="prefetch" href="/noteCSS/assets/js/25.71133338.js"><link rel="prefetch" href="/noteCSS/assets/js/26.d3d39d43.js"><link rel="prefetch" href="/noteCSS/assets/js/27.cc8873a6.js"><link rel="prefetch" href="/noteCSS/assets/js/28.f96d981f.js"><link rel="prefetch" href="/noteCSS/assets/js/29.87fe50bd.js"><link rel="prefetch" href="/noteCSS/assets/js/3.033f44f8.js"><link rel="prefetch" href="/noteCSS/assets/js/31.f063d953.js"><link rel="prefetch" href="/noteCSS/assets/js/32.a5a55b91.js"><link rel="prefetch" href="/noteCSS/assets/js/33.5f178e0e.js"><link rel="prefetch" href="/noteCSS/assets/js/34.aa379cdf.js"><link rel="prefetch" href="/noteCSS/assets/js/35.9db69ffe.js"><link rel="prefetch" href="/noteCSS/assets/js/36.9a13290d.js"><link rel="prefetch" href="/noteCSS/assets/js/37.7d529cdf.js"><link rel="prefetch" href="/noteCSS/assets/js/38.545c6b51.js"><link rel="prefetch" href="/noteCSS/assets/js/39.78a8ce5c.js"><link rel="prefetch" href="/noteCSS/assets/js/4.d796ea15.js"><link rel="prefetch" href="/noteCSS/assets/js/40.94f2ffc7.js"><link rel="prefetch" href="/noteCSS/assets/js/41.b5f2a370.js"><link rel="prefetch" href="/noteCSS/assets/js/42.4f7df8c3.js"><link rel="prefetch" href="/noteCSS/assets/js/43.a0403d10.js"><link rel="prefetch" href="/noteCSS/assets/js/44.b93ee9cb.js"><link rel="prefetch" href="/noteCSS/assets/js/45.891e804c.js"><link rel="prefetch" href="/noteCSS/assets/js/46.5694bedc.js"><link rel="prefetch" href="/noteCSS/assets/js/47.caa3d848.js"><link rel="prefetch" href="/noteCSS/assets/js/48.72f4d8d0.js"><link rel="prefetch" href="/noteCSS/assets/js/49.fa2c0229.js"><link rel="prefetch" href="/noteCSS/assets/js/5.ba0d0a14.js"><link rel="prefetch" href="/noteCSS/assets/js/50.b5fa57eb.js"><link rel="prefetch" href="/noteCSS/assets/js/51.afe28a2c.js"><link rel="prefetch" href="/noteCSS/assets/js/52.1eb5df86.js"><link rel="prefetch" href="/noteCSS/assets/js/53.1be5f857.js"><link rel="prefetch" href="/noteCSS/assets/js/54.68c36fa2.js"><link rel="prefetch" href="/noteCSS/assets/js/55.d5a7c11d.js"><link rel="prefetch" href="/noteCSS/assets/js/56.56aa71de.js"><link rel="prefetch" href="/noteCSS/assets/js/57.64727204.js"><link rel="prefetch" href="/noteCSS/assets/js/58.e6a3d468.js"><link rel="prefetch" href="/noteCSS/assets/js/59.286ca6ed.js"><link rel="prefetch" href="/noteCSS/assets/js/6.b0919e16.js"><link rel="prefetch" href="/noteCSS/assets/js/60.8d0e9952.js"><link rel="prefetch" href="/noteCSS/assets/js/61.2a918867.js"><link rel="prefetch" href="/noteCSS/assets/js/62.791ec84e.js"><link rel="prefetch" href="/noteCSS/assets/js/63.cb355f8e.js"><link rel="prefetch" href="/noteCSS/assets/js/64.173e8208.js"><link rel="prefetch" href="/noteCSS/assets/js/65.87e4c825.js"><link rel="prefetch" href="/noteCSS/assets/js/66.922b5f96.js"><link rel="prefetch" href="/noteCSS/assets/js/67.4b0c93d4.js"><link rel="prefetch" href="/noteCSS/assets/js/68.5bc4953a.js"><link rel="prefetch" href="/noteCSS/assets/js/69.f5d3de74.js"><link rel="prefetch" href="/noteCSS/assets/js/7.068d0947.js"><link rel="prefetch" href="/noteCSS/assets/js/70.483a21c3.js"><link rel="prefetch" href="/noteCSS/assets/js/71.c16a1b17.js"><link rel="prefetch" href="/noteCSS/assets/js/72.c6b647ec.js"><link rel="prefetch" href="/noteCSS/assets/js/73.bb76a47e.js"><link rel="prefetch" href="/noteCSS/assets/js/74.610bd816.js"><link rel="prefetch" href="/noteCSS/assets/js/75.3ed433e9.js"><link rel="prefetch" href="/noteCSS/assets/js/76.4a4ab09d.js"><link rel="prefetch" href="/noteCSS/assets/js/77.1fb3102b.js"><link rel="prefetch" href="/noteCSS/assets/js/78.d0cf99a2.js"><link rel="prefetch" href="/noteCSS/assets/js/79.66ee37a2.js"><link rel="prefetch" href="/noteCSS/assets/js/8.cf6680b5.js"><link rel="prefetch" href="/noteCSS/assets/js/80.16c309e3.js"><link rel="prefetch" href="/noteCSS/assets/js/81.ac13e1b1.js"><link rel="prefetch" href="/noteCSS/assets/js/82.54ce52ec.js"><link rel="prefetch" href="/noteCSS/assets/js/9.5b4c6eb2.js">
+    <link rel="stylesheet" href="/noteCSS/assets/css/0.styles.3be0dd5c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/noteCSS/" class="home-link router-link-active"><img src="/noteCSS/assets/img/logo.jpg" alt=" " class="logo"> <span class="site-name can-hide"> </span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/superwtt" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/superwtt" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Introduction</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/introduction/introduction.html" class="sidebar-link">Awesome CSS</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>CSS Base</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>Scss</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/base/scss/scss基础.html" class="active sidebar-link">Scss基础</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/noteCSS/base/scss/scss进阶.html" class="sidebar-link">Scss进阶</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/noteCSS/base/background/background.html" class="sidebar-heading clickable"><span>背景</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>渐变</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>阴影</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>边框</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>动画</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>滤镜</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>SVG</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS Inspiration</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>伪类</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/inspiration/after/light.html" class="sidebar-link">纯CSS实现白天黑夜切换效果</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>animation</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>阴影</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>边框</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>渐变色</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>布局（Layout）</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS General</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/general/流星雨.html" class="sidebar-link">粒子流星🌠</a></li><li><a href="/noteCSS/general/烟花.html" class="sidebar-link">HappyNewYear之烟花绽放🎆</a></li><li><a href="/noteCSS/general/灯球.html" class="sidebar-link">三步实现LED的星球🌟</a></li><li><a href="/noteCSS/general/下雪.html" class="sidebar-link">纯CSS实现落雪满山⛄</a></li><li><a href="/noteCSS/general/巧用随机数实现闪烁的星空.html" class="sidebar-link">巧用随机数实现闪烁的星空🌛</a></li><li><a href="/noteCSS/general/loading合集.html" class="sidebar-link">Loading合集🍄</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS Doodle</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/doodle/sky.html" class="sidebar-link">css doodle starry星空🎄</a></li><li><a href="/noteCSS/doodle/cloud.html" class="sidebar-link">css doodle 许你一片紫色的天空⛅</a></li><li><a href="/noteCSS/doodle/emoji.html" class="sidebar-link">css doodle emoji😵</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>SVG</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/svg/SVG实现按钮边框动画.html" class="sidebar-link">SVG实现按钮边框动画</a></li><li><a href="/noteCSS/svg/SVG实现加载小动画.html" class="sidebar-link">SVG实现加载小动画</a></li><li><a href="/noteCSS/svg/环形进度条.html" class="sidebar-link">环形进度条</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS Tools</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/tools/动效.html" class="sidebar-link">前端动效小工具</a></li><li><a href="/noteCSS/tools/小工具.html" class="sidebar-link">前端小工具</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>CSS Q&amp;A</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/noteCSS/q&amp;a/如何截取图片.html" class="sidebar-link">CSS如何截取图片</a></li><li><a href="/noteCSS/q&amp;a/失效的定位.html" class="sidebar-link">失效的定位</a></li><li><a href="/noteCSS/q&amp;a/absolute和relative的层级问题.html" class="sidebar-link">absolute和relative的层级</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="scss基础知识"><a href="#scss基础知识" class="header-anchor">#</a> Scss基础知识</h3> <h4 id="什么是css预处理器"><a href="#什么是css预处理器" class="header-anchor">#</a> 什么是CSS预处理器</h4> <p>CSS预处理器定义了一种新的语言，其基本思想就是，用一种专门的编程语言，为CSS增加编程特性，将CSS作为目标生成文件，然后开发者就只要使用这种语言进行编码工作。你可以在CSS中使用变量、简单的逻辑程序、函数等等一些编程语言中的基本特性，可以让我们的CSS更加简洁、适应性更强、可读性更强、更易于代码维护等等好处（编程特性）。</p> <hr> <h4 id="sass和scss有什么区别"><a href="#sass和scss有什么区别" class="header-anchor">#</a> Sass和Scss有什么区别</h4> <ol><li>文件扩展名不同，Sass是以.sass后缀为扩展名，而Scss是以.scss为扩展名</li> <li>语法书写不同，Sass是以严格的缩进式语法规则来书写，不带大括号和分号，而Scss语法书写和我们的CSS语法方式非常类似，把现有的.css改成.scss都可以使用</li> <li>Scss是Sass3引入的新语法，是CSS3语法的超集，也就是说有效的CSS3样式也同样适用于Sass，说白了Scss是Sass的升级版，其语法完全兼容CSS3，并且继承了Sass的强大功能</li> <li>示例</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 1. Sass</span>
+$font<span class="token operator">-</span>family<span class="token operator">:</span>Helvetica<span class="token punctuation">,</span> sans<span class="token operator">-</span>serif<span class="token punctuation">;</span>
+$primary<span class="token operator">-</span>color<span class="token operator">:</span>#<span class="token number">333</span><span class="token punctuation">;</span>
+body
+  font<span class="token operator">:</span><span class="token number">100</span><span class="token operator">%</span> $font<span class="token operator">-</span>family
+  color<span class="token operator">:</span>$primary<span class="token operator">-</span>color
+
+<span class="token comment">// 2. Scss</span>
+$font<span class="token operator">-</span>family<span class="token operator">:</span>Helvetica<span class="token punctuation">,</span> sans<span class="token operator">-</span>serif<span class="token punctuation">;</span>
+$primary<span class="token operator">-</span>color<span class="token operator">:</span>#<span class="token number">333</span><span class="token punctuation">;</span>
+body<span class="token punctuation">{</span>
+   font<span class="token operator">:</span><span class="token number">100</span><span class="token operator">%</span> $font<span class="token operator">-</span>family
+   color<span class="token operator">:</span>$primary<span class="token operator">-</span>color
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="变量"><a href="#变量" class="header-anchor">#</a> 变量</h4> <ul><li>声明变量
+<ul><li>声明变量的符号$</li> <li>变量名称</li> <li>赋予变量的值</li></ul></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>$brand<span class="token operator">-</span>primary<span class="token operator">-</span>color<span class="token operator">:</span>#<span class="token number">333</span><span class="token punctuation">;</span>
+$btn<span class="token operator">-</span>primary<span class="token operator">-</span>bg<span class="token operator">:</span>$brand<span class="token operator">-</span>primary<span class="token punctuation">;</span>
+</code></pre></div><ul><li>普通变量
+<ul><li>定义之后可以在全局范围内使用</li></ul></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>$fontSize<span class="token operator">:</span><span class="token number">12</span>px<span class="token punctuation">;</span>
+body<span class="token punctuation">{</span>
+    font<span class="token operator">-</span>size<span class="token operator">:</span>$fontSize<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>默认变量
+<ul><li>Sass的默认变量是在值的后面添加<code>!default</code>即可。默认变量一般用来设置默认值，然后根据需求来覆盖，覆盖的方式也很简单，只需要在默认变量<code>之前</code>重新申明下变量即可</li></ul></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 默认值</span>
+$baseLineHeight<span class="token operator">:</span><span class="token number">1.5</span> <span class="token operator">!</span><span class="token keyword">default</span><span class="token punctuation">;</span>
+body<span class="token punctuation">{</span>
+    line<span class="token operator">-</span>height<span class="token operator">:</span>$baseLineHeight<span class="token punctuation">;</span> <span class="token comment">// 1.5</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 默认值覆盖</span>
+$baseLineHeight<span class="token operator">:</span><span class="token number">2</span><span class="token punctuation">;</span>
+$baseLineHeight<span class="token operator">:</span><span class="token number">1.5</span> <span class="token operator">!</span><span class="token keyword">default</span><span class="token punctuation">;</span>
+body<span class="token punctuation">{</span>
+    line<span class="token operator">-</span>height<span class="token operator">:</span>$baseLineHeight<span class="token punctuation">;</span> <span class="token comment">// 2</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>全局变量和局部变量</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>$color<span class="token operator">:</span>orange <span class="token operator">!</span><span class="token keyword">default</span><span class="token punctuation">;</span> <span class="token comment">// 定义全局变量</span>
+<span class="token punctuation">.</span>block<span class="token punctuation">{</span>
+    color<span class="token operator">:</span>$color<span class="token punctuation">;</span> <span class="token comment">// 调用全局变量</span>
+<span class="token punctuation">}</span>
+em<span class="token punctuation">{</span>
+    $color<span class="token operator">:</span>red<span class="token punctuation">;</span> <span class="token comment">// 定义局部变量</span>
+    a<span class="token punctuation">{</span>
+        color<span class="token operator">:</span>$color<span class="token punctuation">;</span> <span class="token comment">// 调用局部变量</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+span<span class="token punctuation">{</span>
+    color<span class="token operator">:</span>$color<span class="token punctuation">;</span> <span class="token comment">// 调用全局变量</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>什么时候声明变量
+<ul><li>创建变量只适用于感觉有必要的情况下
+<ul><li>该值至少重复出现了两次</li> <li>该值至少可能会被更新一次</li> <li>该值所有的表现都与变量有关</li></ul></li></ul></li></ul> <hr> <h4 id="嵌套"><a href="#嵌套" class="header-anchor">#</a> 嵌套</h4> <ol><li><p>定义：Sass中还提供了选择题嵌套的功能，但这并不意味着我们在Sass中的嵌套是无节制的，因为嵌套的层级越深，编译出来的CSS代码的选择器层级将会越深。</p></li> <li><p>Sass的嵌套分为三种：</p></li></ol> <ul><li>选择器嵌套</li> <li>属性嵌套：有些css的前缀属性相同，就可以使用选择器嵌套，类似有margin/padding/font/border等</li> <li>伪类嵌套：与属性嵌套类似，只不过需要&amp;来连接</li></ul> <ol start="3"><li>示例</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 选择器嵌套</span>
+nav<span class="token punctuation">{</span>
+    a<span class="token punctuation">{</span>
+        color<span class="token operator">:</span>red<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 属性嵌套</span>
+<span class="token punctuation">.</span>box<span class="token punctuation">{</span>
+    border<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">1</span>px solid red<span class="token punctuation">;</span>
+    border<span class="token operator">-</span>bottom<span class="token operator">:</span><span class="token number">1</span>px solid green<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>box<span class="token punctuation">{</span>
+    border<span class="token operator">:</span><span class="token punctuation">{</span>
+        top<span class="token operator">:</span><span class="token number">1</span>px solid red<span class="token punctuation">;</span>
+        bottom<span class="token operator">:</span><span class="token number">1</span>px solid green<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 伪类嵌套</span>
+<span class="token punctuation">.</span>box<span class="token punctuation">{</span>
+    <span class="token operator">&amp;</span><span class="token operator">:</span><span class="token operator">:</span>after<span class="token punctuation">,</span>
+    <span class="token operator">&amp;</span><span class="token operator">:</span><span class="token operator">:</span>before<span class="token punctuation">{</span>
+        <span class="token comment">// ...</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="混合宏-声明混合宏"><a href="#混合宏-声明混合宏" class="header-anchor">#</a> 混合宏-声明混合宏</h4> <p>如果我们整个网站有几处小样式类似，比如颜色、字体等等，在Sass中可以使用变量来统一解决。但当我们的样式变得越来越复杂，需要使用大段的样式时，使用变量就无法达到我们目的了，这个时候Sass混合宏就会变得非常有意义。在Sass中，使用@mixin来声明一个混合宏，大括号里是复用的样式代码</p> <ol><li>声明混合宏：在Sass中，使用@mixin来声明一个混合宏</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 不带参数的混合宏</span>
+@mixin border<span class="token operator">-</span>radius<span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span><span class="token number">5</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 带参数的混合宏</span>
+@mixin border<span class="token operator">-</span><span class="token function">radius</span><span class="token punctuation">(</span><span class="token parameter">$radius<span class="token operator">:</span><span class="token number">5</span>px</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span>$radius<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 复杂的混合宏 ...表示当混合宏传递过多参数时，可以用这个参数替代</span>
+@mixin box<span class="token operator">-</span><span class="token function">shadow</span><span class="token punctuation">(</span><span class="token parameter">$shadow<span class="token operator">...</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    @<span class="token keyword">if</span> <span class="token function">length</span><span class="token punctuation">(</span>$shadow<span class="token punctuation">)</span><span class="token operator">&gt;=</span><span class="token number">1</span><span class="token punctuation">{</span>
+        @include <span class="token function">prefix</span><span class="token punctuation">(</span>box<span class="token operator">-</span>shadow<span class="token punctuation">,</span>$shadow<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>@<span class="token keyword">else</span><span class="token punctuation">{</span>
+        $shadow<span class="token operator">:</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">4</span>px <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">.3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        @include <span class="token function">prefix</span><span class="token punctuation">(</span>box<span class="token operator">-</span>shadow<span class="token punctuation">,</span>$shadow<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>调用混合宏: 在Sass中，使用关键词@include来调用声明好的混合宏</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 声明</span>
+@mixin border<span class="token operator">-</span>radius<span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span><span class="token number">3</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 调用</span>
+button<span class="token punctuation">{</span>
+    @include border<span class="token operator">-</span>radius
+<span class="token punctuation">}</span>
+<span class="token comment">// 编译出来的css</span>
+button<span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span><span class="token number">3</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="混合宏传参"><a href="#混合宏传参" class="header-anchor">#</a> 混合宏传参</h4> <ol><li>传一个不带值的参数</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code>@mixin border<span class="token operator">-</span><span class="token function">radius</span><span class="token punctuation">(</span><span class="token parameter">$radius</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span>$radius<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 调用</span>
+button<span class="token punctuation">{</span>
+    @include border<span class="token operator">-</span><span class="token function">radius</span><span class="token punctuation">(</span><span class="token number">3</span>px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 编译</span>
+button<span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span><span class="token number">3</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>传一个带值的参数</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code>@mixin border<span class="token operator">-</span><span class="token function">radius</span><span class="token punctuation">(</span><span class="token parameter">$radius<span class="token operator">:</span><span class="token number">3</span>px</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    border<span class="token operator">-</span>radius<span class="token operator">:</span>$radius<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 调用</span>
+button<span class="token punctuation">{</span>
+    @include border<span class="token operator">-</span>radius<span class="token punctuation">;</span> <span class="token comment">// 3px</span>
+<span class="token punctuation">}</span>
+button<span class="token punctuation">{</span>
+    @include border<span class="token operator">-</span><span class="token function">radius</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token operator">%</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 50%</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>传多个参数</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code>@mixin <span class="token function">center</span><span class="token punctuation">(</span><span class="token parameter">$width<span class="token punctuation">,</span>$height</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    width<span class="token operator">:</span>$width<span class="token punctuation">;</span>
+    height<span class="token operator">:</span>$height<span class="token punctuation">;</span>
+    position<span class="token operator">:</span>absolute<span class="token punctuation">;</span>
+    top<span class="token operator">:</span><span class="token number">50</span><span class="token operator">%</span><span class="token punctuation">;</span>
+    left<span class="token operator">:</span><span class="token number">50</span><span class="token operator">%</span><span class="token punctuation">;</span>
+    margin<span class="token operator">-</span>top<span class="token operator">:</span><span class="token operator">-</span><span class="token punctuation">(</span>$width<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+    margin<span class="token operator">-</span>left<span class="token operator">:</span><span class="token operator">-</span><span class="token punctuation">(</span>$height<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+body<span class="token punctuation">{</span>
+    @include <span class="token function">center</span><span class="token punctuation">(</span><span class="token number">500</span>px<span class="token punctuation">,</span><span class="token number">300</span>px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="继承"><a href="#继承" class="header-anchor">#</a> 继承</h4> <p>在Sass中也具有继承一说，也是继承类中样式的代码块，通过关键词@extend来继承已经存在的类样式块，从而实现代码的继承</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">.</span>btn<span class="token punctuation">{</span>
+    border<span class="token operator">:</span><span class="token number">1</span>px solid #ccc<span class="token punctuation">;</span>
+    padding<span class="token operator">:</span><span class="token number">6</span>px <span class="token number">10</span>px<span class="token punctuation">;</span>
+    font<span class="token operator">-</span>size<span class="token operator">:</span><span class="token number">14</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>btn<span class="token operator">-</span>primary<span class="token punctuation">{</span>
+    background<span class="token operator">-</span>color<span class="token operator">:</span>#f36<span class="token punctuation">;</span>
+    @extend <span class="token punctuation">.</span>btn
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>btn<span class="token operator">-</span>second<span class="token punctuation">{</span>
+    background<span class="token operator">-</span>color<span class="token operator">:</span>#fff<span class="token punctuation">;</span>
+    @extend <span class="token punctuation">.</span>btn
+<span class="token punctuation">}</span>
+<span class="token comment">// 编译过后的</span>
+<span class="token punctuation">.</span>btn<span class="token punctuation">,</span><span class="token punctuation">.</span>btn<span class="token operator">-</span>primary<span class="token punctuation">,</span><span class="token punctuation">.</span>btn<span class="token operator">-</span>second<span class="token punctuation">{</span>
+    border<span class="token operator">:</span><span class="token number">1</span>px solid #ccc<span class="token punctuation">;</span>
+    padding<span class="token operator">:</span><span class="token number">6</span>px <span class="token number">10</span>px<span class="token punctuation">;</span>
+    font<span class="token operator">-</span>size<span class="token operator">:</span><span class="token number">14</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>btn<span class="token operator">-</span>primary<span class="token punctuation">{</span>
+    background<span class="token operator">-</span>color<span class="token operator">:</span>#f36<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>btn<span class="token operator">-</span>second<span class="token punctuation">{</span>
+    background<span class="token operator">-</span>color<span class="token operator">:</span>#fff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="占位符"><a href="#占位符" class="header-anchor">#</a> 占位符</h4> <p>Sass中的占位符%placeholder是个很强大实用的功能，%placeholder是声明的代码，如果不被@extend调用的话，不会产生任何代码</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token operator">%</span>mt5<span class="token punctuation">{</span>
+    margin<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">5</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">%</span>pt5<span class="token punctuation">{</span>
+    padding<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">5</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>btn<span class="token punctuation">{</span>
+    @extend <span class="token operator">%</span>mt5<span class="token punctuation">;</span>
+    @extend <span class="token operator">%</span>pt5<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>block<span class="token punctuation">{</span>
+    @extend <span class="token operator">%</span>mt5<span class="token punctuation">;</span>
+    span<span class="token punctuation">{</span>
+        @extend <span class="token operator">%</span>pt5<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 编译出来的css</span>
+<span class="token punctuation">.</span>btn<span class="token punctuation">,</span><span class="token punctuation">.</span>block<span class="token punctuation">{</span>
+    margin<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">5</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>btn<span class="token punctuation">,</span><span class="token punctuation">.</span>block span<span class="token punctuation">{</span>
+    padding<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">5</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="混合宏-vs-继承-vs-占位符"><a href="#混合宏-vs-继承-vs-占位符" class="header-anchor">#</a> 混合宏 VS 继承 VS 占位符</h4> <p><img src="https://oscimg.oschina.net/oscnet/up-750fa2d78729510a4d2f11f74d9ee867c7f.png" alt=""></p> <hr> <h4 id="插值"><a href="#插值" class="header-anchor">#</a> 插值</h4> <p>使用CSS预处理器语言的一个主要原因是想使用Sass获得一个更好的结构体系，如果我们想写的更加干净、高效和面向对象的CSS，Sass中的插值是很重要的一部分</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>$properties<span class="token operator">:</span><span class="token punctuation">(</span>margin<span class="token punctuation">,</span>padding<span class="token punctuation">)</span><span class="token punctuation">;</span>
+@mixin set<span class="token operator">-</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token parameter">$side<span class="token punctuation">,</span>$value</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    @each $prop <span class="token keyword">in</span> $properties<span class="token punctuation">{</span>
+        #<span class="token punctuation">{</span>$prop<span class="token punctuation">}</span><span class="token operator">-</span>#<span class="token punctuation">{</span>$side<span class="token punctuation">}</span><span class="token operator">:</span>$value
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>login<span class="token operator">-</span>box<span class="token punctuation">{</span>
+    @include set<span class="token operator">-</span><span class="token function">value</span><span class="token punctuation">(</span>top<span class="token punctuation">,</span><span class="token number">14</span>px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 编译过后</span>
+<span class="token punctuation">.</span>login<span class="token operator">-</span>box<span class="token punctuation">{</span>
+    margin<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">14</span>px<span class="token punctuation">;</span>
+    padding<span class="token operator">-</span>top<span class="token operator">:</span><span class="token number">14</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token comment">// 生成class</span>
+@mixin generate<span class="token operator">-</span><span class="token keyword">class</span><span class="token punctuation">(</span>$<span class="token keyword">class</span><span class="token punctuation">,</span>$small<span class="token punctuation">,</span>$medium<span class="token punctuation">,</span>$big<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token punctuation">.</span>#<span class="token punctuation">{</span>$<span class="token keyword">class</span><span class="token punctuation">}</span><span class="token operator">-</span>small <span class="token punctuation">{</span> font<span class="token operator">-</span>size<span class="token operator">:</span>$small <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">.</span>#<span class="token punctuation">{</span>$<span class="token keyword">class</span><span class="token punctuation">}</span><span class="token operator">-</span>medium <span class="token punctuation">{</span> font<span class="token operator">-</span>size<span class="token operator">:</span>$medium <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">.</span>#<span class="token punctuation">{</span>$<span class="token keyword">class</span><span class="token punctuation">}</span><span class="token operator">-</span>big <span class="token punctuation">{</span> font<span class="token operator">-</span>size<span class="token operator">:</span>$big <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <h4 id="数据类型"><a href="#数据类型" class="header-anchor">#</a> 数据类型</h4> <p>Sass和javascript语言类似，也具有自己的数据类型，在Sass中包含了以下几种数据类型：</p> <ol><li>数字：1、 2、 13、 10px</li> <li>字符串：</li></ol> <ul><li>有引号的字符串：“foo” &quot;baz&quot;</li> <li>无引号的字符串：bar</li></ul> <ol start="3"><li>颜色：blue、#fff、rgba(0,0,0,0.5)</li> <li>布尔值：true false</li> <li>空值：null</li></ol> <p>值列表是指用逗号或者空格分开的，<code>margin:1.5rem 1rem 1rem 0</code>或者<code>font-face:Helvetica, Arial, sans-serif</code></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/noteCSS/introduction/introduction.html" class="prev">
+        Awesome CSS
+      </a></span> <span class="next"><a href="/noteCSS/base/scss/scss进阶.html">
+        Scss进阶
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/noteCSS/assets/js/app.42083bfb.js" defer></script><script src="/noteCSS/assets/js/2.2934c4fe.js" defer></script><script src="/noteCSS/assets/js/30.70366a60.js" defer></script>
+  </body>
+</html>
