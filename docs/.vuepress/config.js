@@ -322,6 +322,10 @@ module.exports = {
           {
             title:"圣杯布局",
             path:"/layout/圣杯布局.html"
+          },
+          {
+            title:"六种方式实现水平垂直居中",
+            path:"/layout/六种方式实现水平垂直居中.html"
           }
         ]
       },
