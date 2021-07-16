@@ -222,15 +222,6 @@ module.exports = {
               },
             ],
           },
-          // {
-          //   title: "布局",
-          //   children: [
-          //     {
-          //       title: "瀑布流布局",
-          //       path: "/base/布局/瀑布流布局.html",
-          //     },
-          //   ],
-          // },
         ],
       },
       {
@@ -326,7 +317,11 @@ module.exports = {
           {
             title:"六种方式实现水平垂直居中",
             path:"/layout/六种方式实现水平垂直居中.html"
-          }
+          },
+          {
+            title:"CSS实现瀑布流布局（display:flex）",
+            path:"/layout/CSS实现瀑布流布局(flex).html"
+          },
         ]
       },
       {
