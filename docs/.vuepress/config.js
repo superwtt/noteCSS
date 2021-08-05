@@ -321,11 +321,11 @@ module.exports = {
           },
           {
             title:"CSS实现瀑布流布局（display:flex）",
-            path:"/layout/CSS实现瀑布流布局(flex).html"
+            path:"/layout/CSS实现瀑布流布局1.html"
           },
           {
             title:"CSS实现瀑布流布局（column-count）",
-            path:"/layout/CSS实现瀑布流布局(column-count).html"
+            path:"/layout/CSS实现瀑布流布局2.html"
           },
         ]
       },
