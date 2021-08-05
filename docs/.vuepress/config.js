@@ -305,6 +305,7 @@ module.exports = {
       },
       {
         title:"布局（Layout）",
+        collapsable: false,
         children:[
           {
             title:"双飞翼布局",
